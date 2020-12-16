@@ -1,0 +1,33 @@
+body {
+    background-color:yellow;;
+}
+.new-num {
+    display: flex;
+}
+.new {
+    margin-right: 20px;
+}
+.total-num {
+    display: flex;
+}
+.total {
+margin-right: 20px;
+}
+.new-deathNum {
+    display: flex;
+}
+.newd {
+margin-right: 20px;
+}
+.total-deaths {
+    display: flex;
+}
+.totald {
+margin-right: 20px;
+}
+.new-recovNum {
+    display: flex;
+}
+.newr {
+margin-right: 20px;
+}
