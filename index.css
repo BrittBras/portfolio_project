@@ -1,0 +1,71 @@
+/*
+COLORS:
+    Dark Lava: #4B4237
+    Goldenrod: #D5A021
+    Eggshell: #EDE7D9
+    Spanish Gray: #A49694
+    Dim Gray: #736B60
+
+    color theme generated from Coolers.co -  https://coolors.co/4b4237-d5a021-ede7d9-a49694-736b60
+*/
+.topnav a {
+    margin-right: 2rem;
+}
+
+body a {
+    color: #EDE7D9;
+}
+body {
+    background-color: #D5A021;
+    color: #EDE7D9;
+}
+.topnav {
+    background-color:#D5A021;
+    color:#A49694;
+}
+
+.nav1 {
+    background-color: #736B60;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 1000;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #EDE7D9;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .center {
+      display: block;
+      text-align: center;
+  }
+
+  #resume {
+      padding-top: 7em;
+      padding-bottom: 2em;
+  }
+
+  #projects {
+      padding-top: 7em;
+  }
+
+  #aboutMe {
+      padding-top: 7em;
+  }
+
+ 

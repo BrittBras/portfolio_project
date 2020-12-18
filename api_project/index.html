@@ -3,34 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css" >
     <title>Covid-19 API Project</title>
-   
+
 </head>
 <body>
-    <h1>Global Covid Cases</h1>
-    <div>
+    <h1>Brittani Braswell Long presents: Covid API Project </h1>
+    <div id="covidimg1"><img src="images/covidimage.png"> <img src="images/symptoms.png"> <img src="images/covid.png"></div>
+    <!-- ****Code before adding in bootstrap table for fetched data****
+        <div>
         <div class="new-num">
             <div class="new">New Cases</div>
-            <div id="new-case"></div>
+            <div ></div>
         </div>
         <div class="total-num">
             <div class="total">Total Cases</div>
-            <div id="total-case"></div>
+           
         </div>
         <div class="new-deathNum">
             <div class="newd">New Deaths</div>
-            <div id="new-death"></div>
+            
         </div>
         <div class="total-deaths">
             <div class="totald">Total Deaths</div>
-            <div id="total-deaths"></div>
+            
         </div>
         <div class="new-recovNum">
             <div class="newr">New Recovered</div>
-            <div id="new-recov"></div>
+            
         </div>
-    </div>
-    <script src="index.js"></script>
+    </div> -->
+
+    <table class="table">
+        <thead>
+          <tr class="table-danger">
+            <th scope="col">Global Coronavirus Data</th>
+            <th scope="col">Numbers</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-warning">
+            <th >New Cases</th>
+            <td><div id="new-case"></div></td>
+          
+          </tr>
+      
+          <tr class="table-primary">
+            <th scope="row">Total Cases</th>
+            <td> <div id="total-case"></div></td>
+            
+          </tr>
+          <tr class="table-secondary">
+            <th scope="row">New Deaths</th>
+            <td><div id="new-death"></div></td>
+            
+          </tr>
+          <tr class="table-success">
+            <th scope="row">Total Deaths</th>
+            <td><div id="total-deaths"></div></td>
+            
+          </tr>
+          <tr class="table-danger">
+            <th scope="row">New Recovered</th>
+            <td><div id="new-recov"></div></td>
+          </tr>
+          
+        </tbody>
+      </table>      
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+   <script src="index.js"></script>
 </body>
+<footer>  Copyright: covid19api.com/</footer>
 </html>

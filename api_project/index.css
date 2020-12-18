@@ -1,5 +1,11 @@
 body {
-    background-color:yellow;;
+    background-color:#f4845f;
+    color: #f7b267
+}
+#covidimg1 {
+    display: flex; 
+    flex-wrap: wrap;
+  }
 }
 .new-num {
     display: flex;
